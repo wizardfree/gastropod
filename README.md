@@ -3,41 +3,34 @@
 
 gastropod is a web page slug generator in the style of what.three.words
 
+`yours.representation.norm`
+
 ---
-**_The words are kinda strange looking, how are they generated?_**
-Glad you asked the words are randomly selected from a word bank provided by the [english_words](https://github.com/dwyl/english-words) repository namely the ```words_dictionary.json``` file.
+
+The words used for the slug are randomly selected from a word bank provided by the [google-10000-english](https://github.com/first20hours/google-10000-english) repository namely the `google-10000-english-no-swears.txt` file.
+
+For more information check out the [webzone](https://wizardinthe.cloud/techno.november.necklace/).
 
 ## Installation
 
-Grab the latest version of the script from this repo and also download the latest ```words_dictionary.json``` file from the [english_words](https://github.com/dwyl/english-words) repository.
+Grab the latest version of the script from this repo and run it. That's it!
 
-### Example:
-```
-$ git clone https://github.com/wizardfree/gastropod.git
-$ cd ./gastropod
-$ curl -o words_dict.json https://raw.githubusercontent.com/dwyl/english-words/master/words_dictionary.json
-👍
-
+```bash
+$ curl -O "https://raw.githubusercontent.com/wizardfree/gastropod/master/gastropod.py"
+...
 ```
 
 ## Usage
 
-```
-#make it executable
-sudo chmod +x ./gastropod.py
-#execute it
-./gastropod.py
-```
-## Sample output
-```
-$ ./gastropod.py 
-acuminating.biabo.latchman
-$ ./gastropod.py 
-suiting.sinfonietta.stentorophonic
-$ ./gastropod.py 
-louty.hemapophysis.overfamiliarly
-
+```bash
+$ python gastropod.py
+replies.ebooks.performer
+$ ...
+implementing.turtle.style
+$ ...
+vault.connecting.correct
 ```
 
 ## License
+
 [GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
